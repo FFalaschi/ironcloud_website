@@ -413,7 +413,7 @@ span {
   font-weight: 400;
 }
 p.lead {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 28px;
 }
@@ -545,7 +545,7 @@ ul.lead li {
 }
 /*!---------- 4. COLOURS ----------*/
 .bg-primary {
-  background: #fc4f4f !important;
+  background: #fafafa !important; /* Changed from original: #fc4f4f */
 }
 .bg-secondary {
   background: #f8f8f8;
@@ -571,7 +571,7 @@ ul.lead li {
 /*!---------- 5. SECTIONS ----------*/
 section,
 footer {
-  padding: 96px 0;
+  padding: 60px 0;
   position: relative;
   overflow: hidden;
 }
@@ -619,7 +619,7 @@ footer.bg-dark span,
 nav.bg-dark li,
 footer.bg-dark li,
 .bg-primary li {
-  color: #fefefe;
+  color: #292929;
 }
 @media all and (max-width: 767px) {
   section {
@@ -951,7 +951,7 @@ nav.bg-dark .logo-dark {
   width: auto;
 }
 .menu li a {
-  font-size: 11px;
+  font-size: 12px;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
@@ -1496,11 +1496,12 @@ nav.fixed.scrolled {
 nav.transparent .menu > li > a,
 nav.transparent .module.widget-handle i,
 nav.transparent .nav-utility {
-  color: #fff;
+  color: #666;
 }
 nav.transparent .nav-utility,
 nav.transparent .nav-bar {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 10px -2px gray;
 }
 nav.transparent .module.widget-handle {
   border-left: 1px solid rgba(255, 255, 255, 0.2) !important;
