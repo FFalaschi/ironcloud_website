@@ -7,3 +7,11 @@
 .main-logo {
 	padding-bottom: 40px;
 }
+
+.bg-primary h3, .bg-primary p {
+	color: #233140;
+}
+
+.mb1 {
+  margin-bottom: 1px;
+}

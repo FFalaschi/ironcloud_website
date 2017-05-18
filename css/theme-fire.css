@@ -218,8 +218,8 @@ hr.short-thick {
 }
 .v-align-transform {
   position: relative;
-  transform: translate3d(0, -50%, 0);
-  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -40%, 0);
+  -webkit-transform: translate3d(0, -40%, 0);
   top: 50%;
   z-index: 2;
 }
@@ -610,7 +610,6 @@ footer.bg-dark h6,
 .bg-dark p,
 nav.bg-dark p,
 footer.bg-dark p,
-.bg-primary p,
 .bg-dark span,
 nav.bg-dark span,
 footer.bg-dark span,
@@ -1724,7 +1723,7 @@ input[type="password"] {
 }
 input[type="text"],
 input[type="password"] {
-  background: #f5f5f5;
+  background: #e5e5e5;
   border: none;
   width: 100%;
   height: 50px;
@@ -1732,6 +1731,7 @@ input[type="password"] {
   font-weight: 500;
   margin-bottom: 24px;
   border-radius: 0;
+  color: #292929;
 }
 .image-bg input[type="text"],
 .image-bg textarea {
@@ -1810,7 +1810,7 @@ input[type="submit"],
 button[type="submit"] {
   height: 50px;
   line-height: 48px;
-  border: 2px solid #fc4f4f;
+  border: 2px solid #00AC89;
   background: #fc4f4f;
   color: #fff;
   width: 100%;
@@ -1823,7 +1823,7 @@ button[type="submit"] {
 .bg-primary input[type="submit"],
 .bg-primary button[type="submit"] {
   background: #fff;
-  color: #fc4f4f;
+  color: #00AC89;
 }
 input[type="submit"]:focus,
 button[type="submit"]:focus {
@@ -2666,7 +2666,7 @@ button[type="submit"] .form-loading {
 }
 @media all and (min-width: 768px) {
   .feature-3 {
-    min-height: 160px;
+    min-height: 100px;
   }
 }
 .feature-3 .left,

@@ -24,11 +24,11 @@ $recipientEmail             = 'email@yourdomain.com'; // REQUIRED value.
 $recipientName              = 'John Doe';             // REQUIRED value.
 
 // Email details            - Change these to suit your website needs
-$emailSubject               = 'A message from Your Website'; // REQUIRED value. Subject of the email that the recipient will see
-$websiteName                = 'Your Website';                // REQUIRED value. This is used when a name or email is not collected from the website form
+$emailSubject               = 'A message from Your Website'; 				// REQUIRED value. Subject of the email that the recipient will see
+$websiteName                = 'http://www.ironcloud.com.ar';                // REQUIRED value. This is used when a name or email is not collected from the website form
 
-$timeZone					= 'Australia/Melbourne';         // OPTIONAL, but some servers require this to be set. 
-                                                             // See a list of all supported timezones at: http://php.net/manual/en/timezones.php
+$timeZone					= 'America/Argentina/Buenos_Aires';         	// OPTIONAL, but some servers require this to be set. 
+                                                             				// See a list of all supported timezones at: http://php.net/manual/en/timezones.php
  /*----------------------------------------------------------------------------*\
 |*  You do not need to edit anything below this line, the rest is automatic.    *|
  \*============================================================================*/
