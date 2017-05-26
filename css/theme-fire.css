@@ -595,9 +595,11 @@ footer.bg-dark h3,
 .bg-primary h3,
 .bg-dark h4,
 nav.bg-dark h4,
+/**
 footer.bg-dark h4,
 .bg-primary h4,
 .bg-dark h5,
+**/
 nav.bg-dark h5,
 footer.bg-dark h5,
 .bg-primary h5,
@@ -1722,6 +1724,7 @@ input[type="password"] {
   cursor: default;
 }
 input[type="text"],
+input[type="email"],
 input[type="password"] {
   background: #e5e5e5;
   border: none;

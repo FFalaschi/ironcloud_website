@@ -15,3 +15,9 @@
 .mb1 {
   margin-bottom: 1px;
 }
+
+footer.bg-dark h4,
+.bg-primary h4,
+.bg-dark h5{
+  color: #233140;
+}
