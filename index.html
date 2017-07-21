@@ -17,6 +17,31 @@
     <script>
         !function(a,b,c,d,e,f,g){a.GoogleAnalyticsObject=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=1*new Date,f=b.createElement(c),g=b.getElementsByTagName(c)[0],f.async=1,f.src=d,g.parentNode.insertBefore(f,g)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-97829725-1","auto"),ga("send","pageview");
     </script>
+
+    <!-- Start of Async Drift Code -->
+    <script>
+        !function() {
+          var t;
+          if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+              t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+              t.factory = function(e) {
+                return function() {
+                  var n;
+                  return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+              };
+          }, t.methods.forEach(function(e) {
+            t[e] = t.factory(e);
+        }), t.load = function(t) {
+            var e, n, o, i;
+            e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+            n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+        });
+      }();
+  drift.SNIPPET_VERSION = '0.3.1';
+  drift.load('x9gmnx4kufcv');
+</script>
+<!-- End of Async Drift Code -->
 </head>
 <body class="scroll-assist">
     <div class="nav-container">
@@ -230,35 +255,35 @@
                             </div>
                             <div class="col-sm-6 col-md-5 col-md-offset-1">
                                 <form action="https://formspree.io/hola@ironcloud.com.ar"
-                                      method="POST">
-                                    <input type="text" name="name" placeholder="Nombre Completo">
-                                    <input type="email" name="_replyto" placeholder="Correo Electrónico">
-                                    <input type="text" name="gym" placeholder="Nombre de tu gimnasio">
-                                    <textarea class="validate-required" name="message" rows="4" placeholder="Dejanos tu consulta"></textarea>
-                                    <input type="text" name="_gotcha" style="display:none"/>
-                                    <input type="hidden" name="_language" value="es"/>
-                                    <input type="submit" value="Enviar">
-                                </form>
-                            </div>
+                                method="POST">
+                                <input type="text" name="name" placeholder="Nombre Completo">
+                                <input type="email" name="_replyto" placeholder="Correo Electrónico">
+                                <input type="text" name="gym" placeholder="Nombre de tu gimnasio">
+                                <textarea class="validate-required" name="message" rows="4" placeholder="Dejanos tu consulta"></textarea>
+                                <input type="text" name="_gotcha" style="display:none"/>
+                                <input type="hidden" name="_language" value="es"/>
+                                <input type="submit" value="Enviar">
+                            </form>
                         </div>
-                        <!--end of row-->
                     </div>
                     <!--end of row-->
                 </div>
-                <!--end of container-->
-            </section>
-            <footer class="footer-1 bg-dark">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <img alt="Logo" class="logo" src="img/logo-dark.png"/>
-                        </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <footer class="footer-1 bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <img alt="Logo" class="logo" src="img/logo-dark.png"/>
                     </div>
-                    <!--end of row-->
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <span class="sub">&copy; Copyright 2017 - Ironcloud</span>
-                        </div>
+                </div>
+                <!--end of row-->
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="sub">&copy; Copyright 2017 - Ironcloud</span>
+                    </div>
                         <!--
                         <div class="col-sm-6 text-right">
                             <ul class="list-inline social-list">
@@ -274,26 +299,25 @@
                                 </li>
                             </ul>
                         </div>
-                        -->
-                    </div>
+                    -->
                 </div>
-                <!--end of container-->
-                <a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>
-            </footer>
-        </div>
-        <script src="js/drift.js"></script>
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/flickr.js"></script>
-        <script src="js/flexslider.min.js"></script>
-        <script src="js/lightbox.min.js"></script>
-        <script src="js/masonry.min.js"></script>
-        <script src="js/twitterfetcher.min.js"></script>
-        <script src="js/spectragram.min.js"></script>
-        <script src="js/ytplayer.min.js"></script>
-        <script src="js/countdown.min.js"></script>
-        <script src="js/smooth-scroll.min.js"></script>
-        <script src="js/parallax.js"></script>
-        <script src="js/scripts.js"></script>
-    </body>
-    </html>
+            </div>
+            <!--end of container-->
+            <a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>
+        </footer>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/flickr.js"></script>
+    <script src="js/flexslider.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/masonry.min.js"></script>
+    <script src="js/twitterfetcher.min.js"></script>
+    <script src="js/spectragram.min.js"></script>
+    <script src="js/ytplayer.min.js"></script>
+    <script src="js/countdown.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
